@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ConsoleTest
@@ -10,19 +12,29 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            MyCodeSnippet.JsonCharSerializer j = new MyCodeSnippet.JsonCharSerializer();
-            for (int i = 0; i < (int)char.MaxValue; i++)
+            MyCodeSnippet.JsonInt32Serializer j = new MyCodeSnippet.JsonInt32Serializer();
+
+            bool g = true;
+
+            Parallel.For(int.MinValue, int.MaxValue, i =>
             {
-                var c = (char)i;
-                var my = j.Serializer(c);
-                var newt = Newtonsoft.Json.JsonConvert.SerializeObject(c);
-                var b = my == newt;
-                if (b == false)
+                if (g == true)
                 {
-                    Console.WriteLine(c);
-                    break;
+
+                    Console.Clear();
+                    Console.WriteLine(i);
+                    var my = j.Serialize(i);
+                    var newt = Newtonsoft.Json.JsonConvert.SerializeObject(i);
+                    var b = my == newt;
+                    if (b == false)
+                    {
+                        Console.WriteLine(i);
+                        g = false;
+                    }
+
                 }
-            }
+            });
+
             Console.WriteLine("finish");
             Console.ReadKey();
         }

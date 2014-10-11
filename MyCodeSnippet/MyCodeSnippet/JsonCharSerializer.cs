@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace MyCodeSnippet
 {
+    // TODO finish
     public class JsonCharSerializer
     {
-        public string Serializer(char c)
+        public string Serialize(char c)
         {
             switch (c)
             {

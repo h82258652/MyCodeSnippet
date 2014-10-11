@@ -39,6 +39,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="JsonCharSerializer.cs" />
+    <Compile Include="JsonInt32Serializer.cs" />
+    <Compile Include="JsonStringSerializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
