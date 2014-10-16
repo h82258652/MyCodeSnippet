@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyCodeSnippet
+namespace MyCodeSnippet.Json
 {
     // TODO finish
     public class JsonStringSerializer

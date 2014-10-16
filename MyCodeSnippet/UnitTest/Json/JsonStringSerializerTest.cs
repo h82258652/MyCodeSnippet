@@ -6,8 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MyCodeSnippet.Json;
 
-namespace UnitTest
+namespace UnitTest.Json
 {
     [TestClass]
     public class JsonStringSerializerTest
