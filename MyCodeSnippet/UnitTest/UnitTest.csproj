@@ -56,6 +56,8 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Json\JsonByteSerializerTest.cs" />
+    <Compile Include="Json\JsonDBNullSerializerTest.cs" />
+    <Compile Include="Json\JsonDoubleSerializerTest.cs" />
     <Compile Include="Json\JsonInt16SerializerTest.cs" />
     <Compile Include="Json\JsonInt64SerializerTest.cs" />
     <Compile Include="Json\JsonSByteSerializerTest.cs" />

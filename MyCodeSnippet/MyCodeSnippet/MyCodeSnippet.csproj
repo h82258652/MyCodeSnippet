@@ -41,6 +41,8 @@
     <Compile Include="Json\JsonBooleanSerializer.cs" />
     <Compile Include="Json\JsonByteSerializer.cs" />
     <Compile Include="Json\JsonCharSerializer.cs" />
+    <Compile Include="Json\JsonDBNullSerializer.cs" />
+    <Compile Include="Json\JsonDoubleSerializer.cs" />
     <Compile Include="Json\JsonInt16Serializer.cs" />
     <Compile Include="Json\JsonInt32Serializer.cs" />
     <Compile Include="Json\JsonInt64Serializer.cs" />
