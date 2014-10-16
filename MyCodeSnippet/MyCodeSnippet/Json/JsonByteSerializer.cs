@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Globalization;
 
 namespace MyCodeSnippet.Json
 {
@@ -9,7 +6,7 @@ namespace MyCodeSnippet.Json
     {
         public string Serialize(byte b)
         {
-            return b.ToString();
+            return b.ToString(CultureInfo.InvariantCulture);
         }
     }
 }
