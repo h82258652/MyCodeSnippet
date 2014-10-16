@@ -38,6 +38,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JsonBooleanSerializer.cs" />
     <Compile Include="JsonCharSerializer.cs" />
     <Compile Include="JsonInt32Serializer.cs" />
     <Compile Include="JsonStringSerializer.cs" />

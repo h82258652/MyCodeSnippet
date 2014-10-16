@@ -55,6 +55,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="JsonBooleanSerializerTest.cs" />
     <Compile Include="JsonCharSerializerTest.cs" />
     <Compile Include="JsonInt32SerializerTest.cs" />
     <Compile Include="JsonStringSerializerTest.cs" />
