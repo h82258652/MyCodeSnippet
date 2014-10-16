@@ -59,13 +59,16 @@
     <Compile Include="Json\JsonByteSerializerTest.cs" />
     <Compile Include="Json\JsonDBNullSerializerTest.cs" />
     <Compile Include="Json\JsonDoubleSerializerTest.cs" />
+    <Compile Include="Json\JsonGuidSerializerTest.cs" />
     <Compile Include="Json\JsonInt16SerializerTest.cs" />
     <Compile Include="Json\JsonInt64SerializerTest.cs" />
     <Compile Include="Json\JsonSByteSerializerTest.cs" />
     <Compile Include="Json\JsonBooleanSerializerTest.cs" />
     <Compile Include="Json\JsonCharSerializerTest.cs" />
     <Compile Include="Json\JsonInt32SerializerTest.cs" />
+    <Compile Include="Json\JsonSingleSerializerTest.cs" />
     <Compile Include="Json\JsonStringSerializerTest.cs" />
+    <Compile Include="Json\JsonTypeSerializerTest.cs" />
     <Compile Include="Json\JsonUInt16SerializerTest.cs" />
     <Compile Include="Json\JsonUInt32SerializerTest.cs" />
     <Compile Include="Json\JsonUInt64SerializerTest.cs" />

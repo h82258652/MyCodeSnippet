@@ -43,11 +43,14 @@
     <Compile Include="Json\JsonCharSerializer.cs" />
     <Compile Include="Json\JsonDBNullSerializer.cs" />
     <Compile Include="Json\JsonDoubleSerializer.cs" />
+    <Compile Include="Json\JsonGuidSerializer.cs" />
     <Compile Include="Json\JsonInt16Serializer.cs" />
     <Compile Include="Json\JsonInt32Serializer.cs" />
     <Compile Include="Json\JsonInt64Serializer.cs" />
     <Compile Include="Json\JsonSByteSerializer.cs" />
+    <Compile Include="Json\JsonSingleSerializer.cs" />
     <Compile Include="Json\JsonStringSerializer.cs" />
+    <Compile Include="Json\JsonTypeSerializer.cs" />
     <Compile Include="Json\JsonUInt16Serializer.cs" />
     <Compile Include="Json\JsonUInt32Serializer.cs" />
     <Compile Include="Json\JsonUInt64Serializer.cs" />
