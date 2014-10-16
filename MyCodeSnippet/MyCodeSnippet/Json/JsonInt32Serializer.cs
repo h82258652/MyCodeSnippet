@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyCodeSnippet
+namespace MyCodeSnippet.Json
 {
     public class JsonInt32Serializer
     {

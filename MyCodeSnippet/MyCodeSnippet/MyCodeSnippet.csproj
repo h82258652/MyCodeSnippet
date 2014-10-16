@@ -38,10 +38,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JsonBooleanSerializer.cs" />
-    <Compile Include="JsonCharSerializer.cs" />
-    <Compile Include="JsonInt32Serializer.cs" />
-    <Compile Include="JsonStringSerializer.cs" />
+    <Compile Include="Json\JsonBooleanSerializer.cs" />
+    <Compile Include="Json\JsonCharSerializer.cs" />
+    <Compile Include="Json\JsonInt32Serializer.cs" />
+    <Compile Include="Json\JsonSByteSerializer.cs" />
+    <Compile Include="Json\JsonStringSerializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

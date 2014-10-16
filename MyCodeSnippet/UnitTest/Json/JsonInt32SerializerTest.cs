@@ -5,8 +5,9 @@ using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MyCodeSnippet;
 using Newtonsoft.Json;
+using MyCodeSnippet.Json;
 
-namespace UnitTest
+namespace UnitTest.Json
 {
     [TestClass]
     public class JsonInt32SerializerTest

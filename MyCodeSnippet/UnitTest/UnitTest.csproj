@@ -55,10 +55,11 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="JsonBooleanSerializerTest.cs" />
-    <Compile Include="JsonCharSerializerTest.cs" />
-    <Compile Include="JsonInt32SerializerTest.cs" />
-    <Compile Include="JsonStringSerializerTest.cs" />
+    <Compile Include="Json\JsonSByteSerializerTest.cs" />
+    <Compile Include="Json\JsonBooleanSerializerTest.cs" />
+    <Compile Include="Json\JsonCharSerializerTest.cs" />
+    <Compile Include="Json\JsonInt32SerializerTest.cs" />
+    <Compile Include="Json\JsonStringSerializerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

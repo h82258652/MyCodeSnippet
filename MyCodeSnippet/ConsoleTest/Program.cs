@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using MyCodeSnippet.Json;
 
 namespace ConsoleTest
 {
@@ -12,7 +13,7 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            MyCodeSnippet.JsonInt32Serializer j = new MyCodeSnippet.JsonInt32Serializer();
+            JsonInt32Serializer j = new JsonInt32Serializer();
 
             bool g = true;
 

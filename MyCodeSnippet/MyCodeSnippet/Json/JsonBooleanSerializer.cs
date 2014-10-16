@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MyCodeSnippet
+namespace MyCodeSnippet.Json
 {
     public class JsonBooleanSerializer
     {
