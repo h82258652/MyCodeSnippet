@@ -39,10 +39,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Json\JsonBooleanSerializer.cs" />
+    <Compile Include="Json\JsonByteSerializer.cs" />
     <Compile Include="Json\JsonCharSerializer.cs" />
+    <Compile Include="Json\JsonInt16Serializer.cs" />
     <Compile Include="Json\JsonInt32Serializer.cs" />
+    <Compile Include="Json\JsonInt64Serializer.cs" />
     <Compile Include="Json\JsonSByteSerializer.cs" />
     <Compile Include="Json\JsonStringSerializer.cs" />
+    <Compile Include="Json\JsonUInt16Serializer.cs" />
+    <Compile Include="Json\JsonUInt32Serializer.cs" />
+    <Compile Include="Json\JsonUInt64Serializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
