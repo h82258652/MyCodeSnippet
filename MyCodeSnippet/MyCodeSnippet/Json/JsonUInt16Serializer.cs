@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Globalization;
 
 namespace MyCodeSnippet.Json
 {
     public class JsonUInt16Serializer
     {
-        public string Serialize(ushort us) { return us.ToString(); }
+        public string Serialize(ushort us)
+        {
+            return us.ToString(CultureInfo.InvariantCulture);
+        }
     }
 }

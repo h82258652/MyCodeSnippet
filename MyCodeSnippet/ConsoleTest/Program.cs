@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading;
+﻿using MyCodeSnippet.Json;
+using System;
 using System.Threading.Tasks;
-using MyCodeSnippet.Json;
 
 namespace ConsoleTest
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             JsonInt32Serializer j = new JsonInt32Serializer();
 
@@ -21,7 +16,6 @@ namespace ConsoleTest
             {
                 if (g == true)
                 {
-
                     Console.Clear();
                     Console.WriteLine(i);
                     var my = j.Serialize(i);
@@ -32,7 +26,6 @@ namespace ConsoleTest
                         Console.WriteLine(i);
                         g = false;
                     }
-
                 }
             });
 
